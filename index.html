@@ -6,20 +6,31 @@
     <title>Sorpa Studio LLC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity:0; transform: translateY(20px);}
+            to { opacity:1; transform: translateY(0);}
+        }
+        .animate-fadeIn { animation: fadeIn 1s ease forwards;}
+        .bg-gradient {
+            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+        }
+    </style>
 </head>
 <body class="bg-white text-gray-800">
+
 <!-- Header -->
-<header class="bg-gray-900 text-white">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
+<header class="bg-gradient text-white">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5">
         <h1 class="text-2xl font-bold">Sorpa Studio</h1>
         <nav class="flex items-center space-x-4">
             <ul class="hidden md:flex space-x-4">
-                <li><a href="#about" id="nav_about" class="hover:text-green-400">About</a></li>
-                <li><a href="#services" id="nav_services" class="hover:text-green-400">Services</a></li>
-                <li><a href="#portfolio" id="nav_portfolio" class="hover:text-green-400">Portfolio</a></li>
-                <li><a href="#contact" id="nav_contact" class="hover:text-green-400">Contact</a></li>
+                <li><a href="#about" id="nav_about" class="hover:text-yellow-300">About</a></li>
+                <li><a href="#services" id="nav_services" class="hover:text-yellow-300">Services</a></li>
+                <li><a href="#portfolio" id="nav_portfolio" class="hover:text-yellow-300">Portfolio</a></li>
+                <li><a href="#contact" id="nav_contact" class="hover:text-yellow-300">Contact</a></li>
             </ul>
-            <select id="languageSelect" class="bg-green-500 text-white px-2 py-1 rounded text-sm">
+            <select id="languageSelect" class="bg-white text-gray-800 px-2 py-1 rounded text-sm">
                 <option value="en">English</option>
                 <option value="ru">Русский</option>
                 <option value="es">Español</option>
@@ -29,70 +40,73 @@
 </header>
 
 <!-- Hero -->
-<section class="bg-gray-100 py-20">
-    <div class="max-w-4xl mx-auto text-center px-4">
+<section class="relative">
+    <img src="https://picsum.photos/1600/600?random=1" alt="Hero" class="w-full h-96 object-cover opacity-80">
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-50 px-4">
         <h2 id="hero_title" class="text-4xl font-extrabold mb-4">Loading...</h2>
         <p id="hero_subtitle" class="text-lg mb-6"></p>
-        <a href="#contact" id="hero_cta" class="inline-block bg-green-500 text-white font-semibold px-6 py-3 rounded hover:bg-green-600"></a>
+        <a href="#contact" id="hero_cta" class="inline-block bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition">Contact Us</a>
     </div>
 </section>
 
 <!-- About -->
-<section id="about" class="py-16">
+<section id="about" class="py-16 animate-fadeIn">
     <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 id="about_title" class="text-2xl font-bold mb-4"></h3>
-        <p id="about_text" class="text-gray-600"></p>
+        <h3 id="about_title" class="text-3xl font-bold mb-6"></h3>
+        <p id="about_text" class="text-gray-600 mb-8"></p>
+        <img src="https://picsum.photos/800/400?random=2" alt="About Us" class="rounded shadow mx-auto">
     </div>
 </section>
 
 <!-- Services -->
-<section id="services" class="bg-gray-50 py-16">
+<section id="services" class="py-20 bg-gray-50 animate-fadeIn">
     <div class="max-w-6xl mx-auto px-4">
-        <h3 id="services_title" class="text-2xl font-bold text-center mb-12"></h3>
+        <h3 id="services_title" class="text-3xl font-bold text-center mb-12"></h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white shadow rounded p-6 text-center">
-                <div class="flex justify-center mb-4">
-                    <i data-feather="code" class="w-8 h-8 text-green-500"></i>
+            <div class="bg-white rounded shadow-lg overflow-hidden hover:shadow-xl transition">
+                <img src="https://picsum.photos/400/250?random=3" class="w-full h-40 object-cover">
+                <div class="p-6 text-center">
+                    <h4 id="service1_title" class="font-semibold text-lg mb-2"></h4>
+                    <p id="service1_text" class="text-gray-600"></p>
                 </div>
-                <h4 id="service1_title" class="font-semibold text-lg mb-2"></h4>
-                <p id="service1_text" class="text-gray-600"></p>
             </div>
-            <div class="bg-white shadow rounded p-6 text-center">
-                <div class="flex justify-center mb-4">
-                    <i data-feather="activity" class="w-8 h-8 text-green-500"></i>
+            <div class="bg-white rounded shadow-lg overflow-hidden hover:shadow-xl transition">
+                <img src="https://picsum.photos/400/250?random=4" class="w-full h-40 object-cover">
+                <div class="p-6 text-center">
+                    <h4 id="service2_title" class="font-semibold text-lg mb-2"></h4>
+                    <p id="service2_text" class="text-gray-600"></p>
                 </div>
-                <h4 id="service2_title" class="font-semibold text-lg mb-2"></h4>
-                <p id="service2_text" class="text-gray-600"></p>
             </div>
-            <div class="bg-white shadow rounded p-6 text-center">
-                <div class="flex justify-center mb-4">
-                    <i data-feather="cloud" class="w-8 h-8 text-green-500"></i>
+            <div class="bg-white rounded shadow-lg overflow-hidden hover:shadow-xl transition">
+                <img src="https://picsum.photos/400/250?random=5" class="w-full h-40 object-cover">
+                <div class="p-6 text-center">
+                    <h4 id="service3_title" class="font-semibold text-lg mb-2"></h4>
+                    <p id="service3_text" class="text-gray-600"></p>
                 </div>
-                <h4 id="service3_title" class="font-semibold text-lg mb-2"></h4>
-                <p id="service3_text" class="text-gray-600"></p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Portfolio -->
-<section id="portfolio" class="py-16">
+<section id="portfolio" class="py-20 animate-fadeIn">
     <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 id="portfolio_title" class="text-2xl font-bold mb-4"></h3>
-        <p id="portfolio_text" class="text-gray-600"></p>
+        <h3 id="portfolio_title" class="text-3xl font-bold mb-4"></h3>
+        <p id="portfolio_text" class="text-gray-600 mb-8"></p>
+        <img src="https://picsum.photos/800/400?random=6" alt="Portfolio" class="rounded shadow mx-auto">
     </div>
 </section>
 
 <!-- Contact -->
-<section id="contact" class="bg-gray-100 py-16">
+<section id="contact" class="py-20 bg-gray-100 animate-fadeIn">
     <div class="max-w-4xl mx-auto px-4 text-center">
-        <h3 id="contact_title" class="text-2xl font-bold mb-4"></h3>
+        <h3 id="contact_title" class="text-3xl font-bold mb-4"></h3>
         <p id="contact_text" class="text-gray-600 mb-6"></p>
-        <a href="mailto:info@sorpastudio.com" id="contact_cta" class="inline-block bg-green-500 text-white font-semibold px-6 py-3 rounded hover:bg-green-600"></a>
+        <a href="mailto:info@sorpastudio.com" id="contact_cta" class="inline-block bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded hover:from-yellow-300 hover:to-yellow-400 transition">Email Us</a>
     </div>
 </section>
 
-<footer class="bg-gray-900 text-white text-center py-4">
+<footer class="bg-gradient text-white text-center py-4">
     <p class="text-sm">&copy; 2025 Sorpa Studio LLC.</p>
 </footer>
 
@@ -109,10 +123,9 @@
         "portfolio_title", "portfolio_text",
         "contact_title", "contact_text", "contact_cta"
     ];
-
     const loadLanguage = (lang) => {
         fetch(`./public/locales/${lang}.json`)
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => {
                 elements.forEach(id => {
                     const el = document.getElementById(id);
@@ -120,14 +133,9 @@
                 });
             });
     };
-
-    const selector = document.getElementById("languageSelect");
-    selector.addEventListener("change", (e) => {
-        console.log(e.target.value)
+    document.getElementById("languageSelect").addEventListener("change", e => {
         loadLanguage(e.target.value);
     });
-
-    // Load default language
     loadLanguage("en");
 </script>
 </body>
