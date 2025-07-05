@@ -1,0 +1,23 @@
+{
+  "nav_about": "About",
+  "nav_services": "Services",
+  "nav_portfolio": "Portfolio",
+  "nav_contact": "Contact",
+  "hero_title": "Custom Software Development",
+  "hero_subtitle": "We build tailored digital solutions to help your business grow and succeed.",
+  "hero_cta": "Get in Touch",
+  "about_title": "About Sorpa Studio",
+  "about_text": "Sorpa Studio LLC is a custom software development company delivering innovative solutions for startups and enterprises. Our mission is to turn your ideas into reality with clean, scalable code.",
+  "services_title": "Our Services",
+  "service1_title": "Custom Software",
+  "service1_text": "End-to-end development of tailored applications to match your unique requirements.",
+  "service2_title": "IT Consulting",
+  "service2_text": "Expert guidance in architecture design, security, and digital transformation.",
+  "service3_title": "Cloud Solutions",
+  "service3_text": "Migration and development of cloud-native systems for scalability and resilience.",
+  "portfolio_title": "Our Projects",
+  "portfolio_text": "Coming soon: Case studies and projects showcasing our expertise.",
+  "contact_title": "Contact Us",
+  "contact_text": "Have an idea or project in mind? Reach out to us today.",
+  "contact_cta": "Email Us"
+}

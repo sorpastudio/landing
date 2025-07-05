@@ -1,0 +1,23 @@
+{
+  "nav_about": "Acerca de",
+  "nav_services": "Servicios",
+  "nav_portfolio": "Portafolio",
+  "nav_contact": "Contacto",
+  "hero_title": "Desarrollo de Software Personalizado",
+  "hero_subtitle": "Creamos soluciones digitales a medida para ayudar a tu negocio a crecer y prosperar.",
+  "hero_cta": "Contáctanos",
+  "about_title": "Acerca de Sorpa Studio",
+  "about_text": "Sorpa Studio LLC es una empresa de desarrollo de software a medida que ofrece soluciones innovadoras para startups y empresas consolidadas. Nuestra misión es convertir tus ideas en realidad con código limpio y escalable.",
+  "services_title": "Nuestros Servicios",
+  "service1_title": "Software Personalizado",
+  "service1_text": "Desarrollo completo de aplicaciones adaptadas a tus requisitos únicos.",
+  "service2_title": "Consultoría IT",
+  "service2_text": "Asesoramiento experto en diseño de arquitectura, seguridad y transformación digital.",
+  "service3_title": "Soluciones en la Nube",
+  "service3_text": "Migración y desarrollo de sistemas nativos en la nube para escalabilidad y resiliencia.",
+  "portfolio_title": "Nuestros Proyectos",
+  "portfolio_text": "Próximamente: casos de estudio y proyectos que muestran nuestra experiencia.",
+  "contact_title": "Contáctanos",
+  "contact_text": "¿Tienes una idea o proyecto en mente? Escríbenos hoy mismo.",
+  "contact_cta": "Enviar Correo"
+}
