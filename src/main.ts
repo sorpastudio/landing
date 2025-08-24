@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import PrimeVue from 'primevue/config';
 
-import './style.css';
+import './style/globals.css';
 import App from './App.vue';
 
 import { createI18n } from 'vue-i18n'
