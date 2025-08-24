@@ -7,3 +7,8 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ## Recommended IDE Setup
 pnpm install
 npm run dev
+
+## Info
+Domain provider: [Godaddy](https://dcc.godaddy.com/control/portfolio/sorpastudio.com/settings?ventureId=de062b23-1a6c-413b-b85f-3a686a32c25b&ua_placement=shared_header) \
+Code: [GitHub](https://github.com/sorpastudio/landing) \
+Hosting: [Netlify](https://app.netlify.com/teams/nickarsar/projects)
