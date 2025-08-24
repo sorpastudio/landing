@@ -14,3 +14,5 @@ Domain provider: [Godaddy](https://dcc.godaddy.com/control/portfolio/sorpastudio
 Code: [GitHub](https://github.com/sorpastudio/landing) \
 Hosting: [Netlify](https://app.netlify.com/teams/nickarsar/projects) \
 Deploy: https://vite.dev/guide/static-deploy
+
+https://www.facebook.com/profile.php?id=61579925756233
