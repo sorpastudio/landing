@@ -19,5 +19,9 @@
   "portfolio_text": "Coming soon: Case studies and projects showcasing our expertise.",
   "contact_title": "Contact Us",
   "contact_text": "Have an idea or project in mind? Reach out to us today.",
-  "contact_cta": "Email Us"
+  "contact_cta": "Email Us",
+
+  "tell_us": "Tell Us About Your Project",
+  "about_your_project_text": "We’d love to learn more about your ideas and requirements.\n Please take a few minutes to answer some questions so we can better understand your project and offer the right solution.",
+  "start_questionnaire": "Start Questionnaire"
 }

@@ -37,6 +37,17 @@ const { t } = useI18n()
     </div>
   </section>
 
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-3xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">{{ t('tell_us') }}</h2>
+      <p class="text-gray-600 mb-8 text-lg">{{ t('about_your_project_text') }}</p>
+      <a href="https://forms.gle/UU3aFqUheCapxgvKA" target="_blank"
+         class="inline-block px-8 py-3 rounded-2xl bg-green-600 text-white font-semibold text-lg shadow-md transition transform hover:bg-green-700 hover:scale-105">
+        {{ t('start_questionnaire') }}
+      </a>
+    </div>
+  </section>
+
   <!-- About -->
   <section id="about" class="py-16 border-t">
     <div class="max-w-4xl mx-auto px-4 text-center">
@@ -44,6 +55,8 @@ const { t } = useI18n()
       <p class="text-gray-600">{{ t('about_text') }}</p>
     </div>
   </section>
+
+
 
   <!-- Services -->
   <section id="services" class="py-16 bg-gray-50">
