@@ -14,7 +14,6 @@ createApp(App)
         unstyled: true,
     })
     .use(createI18n({
-        legacy: false,
         locale: 'en',
         fallbackLocale: 'en',
         messages: {
