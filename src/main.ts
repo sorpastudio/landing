@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import { setupI18n } from './i18n';
+import { setupI18n } from './i18n.js';
 import PrimeVue from 'primevue/config';
 
 import './style.css';
